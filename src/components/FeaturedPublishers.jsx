@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { IoStar } from "react-icons/io5";
+import dummy from "../assets/Dummy1.jpg";
 
 function FeaturedPublishers() {
   return (
@@ -15,7 +16,7 @@ function FeaturedPublishers() {
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
           <div className="max-w-[80px] rounded-lg overflow-hidden">
-            <img src="/public/Dummy1.jpg" />
+            <img src={dummy} />
           </div>
           <div className="flex flex-col">
             <p className="font-bold">Good Print</p>
@@ -27,7 +28,7 @@ function FeaturedPublishers() {
         </div>
         <div className="flex gap-2">
           <div className="max-w-[80px] rounded-lg overflow-hidden">
-            <img src="/public/Dummy1.jpg" />
+            <img src={dummy} />
           </div>
           <div className="flex flex-col">
             <p className="font-bold">Good Print</p>
@@ -39,7 +40,7 @@ function FeaturedPublishers() {
         </div>
         <div className="flex gap-2">
           <div className="max-w-[80px] rounded-lg overflow-hidden">
-            <img src="/public/Dummy1.jpg" />
+            <img src={dummy} />
           </div>
           <div className="flex flex-col">
             <p className="font-bold">Good Print</p>

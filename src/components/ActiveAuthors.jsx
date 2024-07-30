@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import dummy from "../assets/Dummy1.jpg";
 
 function ActiveAuthors() {
   return (
@@ -14,7 +15,7 @@ function ActiveAuthors() {
       <div className="flex flex-col gap-2">
         <div className="flex gap-2">
           <div className="max-w-[80px] rounded-lg overflow-hidden">
-            <img src="/public/Dummy1.jpg" />
+            <img src={dummy} />
           </div>
           <div className="flex flex-col">
             <p className="font-bold">Dr. James Smith</p>
@@ -25,7 +26,7 @@ function ActiveAuthors() {
         </div>
         <div className="flex gap-2">
           <div className="max-w-[80px] rounded-lg overflow-hidden">
-            <img src="/public/Dummy1.jpg" />
+            <img src={dummy} />
           </div>
           <div className="flex flex-col">
             <p className="font-bold">Dr. James Smith</p>
@@ -36,7 +37,7 @@ function ActiveAuthors() {
         </div>
         <div className="flex gap-2">
           <div className="max-w-[80px] rounded-lg overflow-hidden">
-            <img src="/public/Dummy1.jpg" />
+            <img src={dummy} />
           </div>
           <div className="flex flex-col">
             <p className="font-bold">Dr. James Smith</p>
