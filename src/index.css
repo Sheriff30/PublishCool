@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-accordion-header-link {
+  @apply flex items-center justify-between px-2;
+}
+
+.p-accordion-toggle-icon {
+  @apply order-2;
+}
+
+.p-accordion-header-text {
+  @apply border-l-2 pl-2 pb-1 border-primary uppercase;
+}
+
+.p-accordion-tab-active .p-accordion-header-text {
+  @apply text-primary;
+}
+
+.faq .p-accordion-header-link {
+  @apply bg-verylightblue text-lg font-semibold;
+}
+
+.faq .p-accordion-header-text {
+  @apply text-black   border-none normal-case;
+}
+.faq .p-accordion-content {
+  @apply p-3 normal-case bg-verylightblue;
+}
+
+.p-accordion-content {
+  @apply uppercase pl-12;
+}
+
+.p-paginator {
+  @apply p-0;
+}
