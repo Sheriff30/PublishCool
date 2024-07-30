@@ -201,7 +201,7 @@ const App = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               <div>
                 <img
-                  src="../assets/Dummy1.jpg"
+                  src="/assets/Dummy1.jpg"
                   alt="dummy photo"
                   className="w-full h-full object-cover"
                 />
