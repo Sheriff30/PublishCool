@@ -197,7 +197,7 @@ const App = () => {
         {currentItems.map((item) => (
           <div
             key={item.id}
-            className="grid  grid-cols-1 grid-rows-[1fr_auto] border overflow-hidden cursor-pointer border-periwinkle rounded-lg hover:border-primary  gap-2"
+            className="grid  grid-cols-1 grid-rows-[1fr_auto] border overflow-hidden cursor-pointer border-periwinkle rounded-lg hover:border-primary  lg:gap-2"
           >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               <div>
