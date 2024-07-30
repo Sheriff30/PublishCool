@@ -6,6 +6,7 @@ import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import Button from "./Button";
+import dummy from "../assets/Dummy1.jpg";
 
 const itemsPerPage = 6;
 
@@ -201,7 +202,7 @@ const App = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               <div>
                 <img
-                  src="/assets/Dummy1.jpg"
+                  src={dummy}
                   alt="dummy photo"
                   className="w-full h-full object-cover"
                 />
